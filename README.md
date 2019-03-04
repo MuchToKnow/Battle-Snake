@@ -1,7 +1,11 @@
 # Description
 Thanks to [BattleSnake](https://battlesnake.io) for the amazing competition and online platform!
 
-A simple snake made during the battleSnake competition in Victoria 2019 that only looks at *single* gamestates.  The snake can pathfind and move to food but doesn't handle cases where
+A simple (incomplete and buggy) snake made during the 2019 BattleSnake competition in Victoria, BC made by [coco99166](https://github.com/coco99166), [Yuming H](https://github.com/yuming-h), [ajyxc](https://github.com/ajyxc), [yaoharry](https://github.com/yaoharry) and myself. 
+
+I am making a _hopefully improved_ continuation of this snake on my own [here](https://github.com/MuchToKnow/sauder)
+
+The snake currently evaluates *single* gamestates and doesn't attempt any prediction.  The snake can pathfind and move to food but doesn't handle cases where
 * There is no food on the board
 * There is no current viable path to food
 
